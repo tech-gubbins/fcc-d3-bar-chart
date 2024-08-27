@@ -1,0 +1,23 @@
+:root {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+svg {
+    fill: navy;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    pointer-events: none;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.bar:hover {
+    fill: goldenrod;
+}
